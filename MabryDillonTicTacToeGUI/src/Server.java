@@ -38,11 +38,6 @@ public class Server {
                 game.currentPlayer = playerOne;
                 playerOne.start();
                 playerTwo.start();
-//                while (playerOne.isAlive() && playerTwo.isAlive()) {
-//                    System.out.println("Server running....");
-//                }
-//                serverSocket.close();
-//                System.exit(0);
             }
         } finally {
             serverSocket.close();
